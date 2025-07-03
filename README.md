@@ -1,4 +1,4 @@
-# Go Links
+# Linkify
 A browser extension for creating personal URL shortcuts. Available on Chrome and Firefox.
 
 ## Installation
@@ -7,13 +7,13 @@ A browser extension for creating personal URL shortcuts. Available on Chrome and
 
 https://chrome.google.com/webstore/detail/go-links/gojgbkejhelijlkgpmlbbkklljgmfljj?h1=en
 
-## User Guide to Go Links
+## User Guide to Linkify
 
 <details>
     <summary>How to create a golink?</summary>
 
 1. Go to the website you want to create the shortcut for.
-2. Open Go Links.
+2. Open Linkify.
 3. Expand "Add new shortcut"
 4. Fill in a name for your shortcut.
 5. Click "Save" button.
@@ -33,7 +33,7 @@ You will then be able to access the same url using that shortcut. See `How to ac
 ![Access via shortcut](demo/via_shortcut.gif)
 
 #### Access via extension popup
-1. Open Go Links.
+1. Open Linkify.
 2. Click on the shortcut entry.
 3. The website will be opened in a new tab.
 
@@ -43,7 +43,7 @@ You will then be able to access the same url using that shortcut. See `How to ac
 <details>
     <summary>How to search for a golink?</summary>
 
-1. Open Go Links.
+1. Open Linkify.
 2. Click on the search box.
 3. Type in your search query.
 4. Your search results will be filtered in ascending order.
@@ -54,7 +54,7 @@ You will then be able to access the same url using that shortcut. See `How to ac
 <details>
     <summary>How to delete a golink?</summary>
 
-1. Open Go Links.
+1. Open Linkify.
 2. Move your mouse on the entry that you want to delete. The trash icon will appear on hover.
 3. Click on the trash icon.
 4. Confirm your selection.
@@ -67,7 +67,7 @@ You will then be able to access the same url using that shortcut. See `How to ac
     <summary>How to overwrite a golink?</summary>
 
 1. Go to the new website for which you want to use the shortcut.
-2. Open Go Links.
+2. Open Linkify.
 3. Expand "Add new shortcut".
 4. Type in the shortcut you want to overwrite.
 5. Click "Overwrite" button.

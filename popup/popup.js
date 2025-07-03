@@ -46,7 +46,7 @@ currentBrowswer.tabs.query({'active': true, 'lastFocusedWindow': true, 'currentW
     .then(tabs => urlInput.value = tabs[0].url);
 
 helpBtn.addEventListener("click", function() {
-    currentBrowswer.tabs.create({active: true, url: "https://github.com/hieupham7127/golinks#user-guide-to-go-links"});
+    currentBrowswer.tabs.create({active: true, url: "https://github.com/hieupham7127/golinks#user-guide-to-linkify"});
 });
 
 async function getAllEntries() {
@@ -142,7 +142,7 @@ function exportGoLinks(data) {
     a.href = URL.createObjectURL(new Blob([JSON.stringify(data, null, 2)], {
       type: "application/JSON"
     }));
-    a.setAttribute("download", "golinks.json");
+    a.setAttribute("download", "linkify.json");
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

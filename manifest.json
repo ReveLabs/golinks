@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Go Links",
-    "version": "0.0.5",
+    "name": "Linkify",
+    "version": "0.0.6",
 
     "description": "Fast accessing your websites with a personal URL shortener",
 
@@ -14,7 +14,7 @@
     },
 
     "action": {
-        "default_title": "Go Links",
+        "default_title": "Linkify",
         "default_popup": "popup/popup.html",
         "default_icon": {
             "16": "icons/16x16.png",
